@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 notas = ["C","C#","D","D#","E","F","F#","G","G#","A","A#","B"]
 defaults = ["E","B","G","D","A","E","B","G","D","A","E"]
 patrones = {
